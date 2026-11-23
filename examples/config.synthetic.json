@@ -1,0 +1,19 @@
+{
+  "geometry": {"chord_m": 0.1, "span_m": 0.2},
+  "tare": {"lift_N": 0.012, "drag_N": 0.006, "dp_pa": 0.3},
+  "uncertainty": {
+    "lift_N": 0.005,
+    "drag_N": 0.002,
+    "dp_pa": 0.4,
+    "lift_tare_N": 0.002,
+    "drag_tare_N": 0.001,
+    "dp_tare_pa": 0.2,
+    "chord_m": 0.0005,
+    "span_m": 0.001,
+    "temp_c": 0.4,
+    "ambient_pressure_pa": 100.0
+  },
+  "dataset_kind": "synthetic",
+  "forces_frame": "wind_axes",
+  "dp_source": "pitot_total_minus_static"
+}

@@ -1,0 +1,809 @@
+{
+  "status": "SOFTWARE VERIFICATION ONLY; NO PHYSICAL VALIDATION",
+  "verification": [
+    {
+      "quantity": "cl",
+      "calculated": 0.25119307335317526,
+      "independent": 0.2511930733531753,
+      "absolute_difference": 5.551115123125783e-17,
+      "analytic_u": 0.010963830654066628,
+      "finite_difference_u": 0.010963830653877396,
+      "fd_relative_difference": 1.7259638163125146e-11,
+      "monte_carlo_u": 0.011013326716625771,
+      "mc_relative_difference": 0.004514486233950121
+    },
+    {
+      "quantity": "cd",
+      "calculated": 0.04599092755105102,
+      "independent": 0.045990927551051025,
+      "absolute_difference": 6.938893903907228e-18,
+      "analytic_u": 0.00422807711466653,
+      "finite_difference_u": 0.004228077114667794,
+      "fd_relative_difference": 2.9887203822909214e-13,
+      "monte_carlo_u": 0.004223187246876964,
+      "mc_relative_difference": 0.0011565228487918633
+    },
+    {
+      "quantity": "velocity_m_s",
+      "calculated": 6.733202855751522,
+      "independent": 6.733202855751522,
+      "absolute_difference": 0.0,
+      "analytic_u": 0.056116868810227635,
+      "finite_difference_u": 0.05611686880474617,
+      "fd_relative_difference": 9.76794201079656e-11,
+      "monte_carlo_u": 0.05623512116693174,
+      "mc_relative_difference": 0.0021072515129809677
+    },
+    {
+      "quantity": "reynolds",
+      "calculated": 43930.17874262236,
+      "independent": 43930.17874262236,
+      "absolute_difference": 0.0,
+      "analytic_u": 432.6017042623323,
+      "finite_difference_u": 432.6017042546389,
+      "fd_relative_difference": 1.778410751995807e-11,
+      "monte_carlo_u": 433.35885995271036,
+      "mc_relative_difference": 0.0017502374191269432
+    }
+  ],
+  "reference_rows": 53,
+  "sensitivity_pairs": [
+    {
+      "alpha_80": -2.14,
+      "alpha_180": -1.98,
+      "flags": [
+        "transition_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.0,
+      "alpha_difference_deg": 0.16000000000000014,
+      "cl": {
+        "difference": -0.017199999999999993,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 8.000000000000021e-05,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "alpha_80": -0.05,
+      "alpha_180": -0.03,
+      "flags": [
+        "transition_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.0,
+      "alpha_difference_deg": 0.020000000000000004,
+      "cl": {
+        "difference": -0.0011000000000000003,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 5.999999999999929e-05,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "alpha_80": 2.05,
+      "alpha_180": 2.0,
+      "flags": [
+        "transition_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.0,
+      "alpha_difference_deg": 0.04999999999999982,
+      "cl": {
+        "difference": -0.008800000000000002,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 2.000000000000092e-05,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "alpha_80": 4.04,
+      "alpha_180": 4.06,
+      "flags": [
+        "transition_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.0,
+      "alpha_difference_deg": 0.019999999999999574,
+      "cl": {
+        "difference": -0.0049000000000000155,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 8.99999999999998e-05,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "alpha_80": 6.09,
+      "alpha_180": 6.09,
+      "flags": [
+        "transition_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.0,
+      "alpha_difference_deg": 0.0,
+      "cl": {
+        "difference": -0.0012000000000000899,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.00034,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "alpha_80": 8.3,
+      "alpha_180": 8.09,
+      "flags": [
+        "transition_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.0,
+      "alpha_difference_deg": 0.21000000000000085,
+      "cl": {
+        "difference": 0.018399999999999972,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.0006500000000000013,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    }
+  ],
+  "sensitivity_metrics": {
+    "cl": {
+      "n": 6,
+      "mae": 0.008600000000000012,
+      "rmse": 0.011094292827095073
+    },
+    "cd": {
+      "n": 6,
+      "mae": 0.00020666666666666693,
+      "rmse": 0.0003045762083069965
+    }
+  },
+  "sensitivity_warning": "Different trips; not matched validation. Source uncertainty unavailable; no confidence intervals.",
+  "synthetic_comparisons": [
+    {
+      "run_id": "synth--09-1",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926646969847834,
+      "alpha_difference_deg": 4.96,
+      "cl": {
+        "difference": -0.3390874129782303,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.04501085084301796,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth--09-2",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926957042164131,
+      "alpha_difference_deg": 4.96,
+      "cl": {
+        "difference": -0.3188378827430238,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.043292221844935294,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth--09-3",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926234402344388,
+      "alpha_difference_deg": 4.96,
+      "cl": {
+        "difference": -0.31986327801841596,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.0459986267666407,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth--06-1",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9927236594331362,
+      "alpha_difference_deg": 1.96,
+      "cl": {
+        "difference": -0.07481843501179186,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.041404479863262525,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth--06-2",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9925576264734113,
+      "alpha_difference_deg": 1.96,
+      "cl": {
+        "difference": -0.06411892985252032,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.041159083327032164,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth--06-3",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9925576739917972,
+      "alpha_difference_deg": 1.96,
+      "cl": {
+        "difference": -0.0718050644576329,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.040964406523345924,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth--03-1",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9927095812741628,
+      "alpha_difference_deg": 0.8599999999999999,
+      "cl": {
+        "difference": -0.012427887751394473,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.04219950031696312,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth--03-2",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926238312949295,
+      "alpha_difference_deg": 0.8599999999999999,
+      "cl": {
+        "difference": -0.02988270211720051,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.036503302150929035,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth--03-3",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926435111547944,
+      "alpha_difference_deg": 0.8599999999999999,
+      "cl": {
+        "difference": -0.01180428068530387,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.03377361795909062,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+00-1",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.992708398838494,
+      "alpha_difference_deg": 0.01,
+      "cl": {
+        "difference": 0.016607282877407148,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.029634629044412546,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+00-2",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.992723121745122,
+      "alpha_difference_deg": 0.01,
+      "cl": {
+        "difference": 0.010227882827186674,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.03893348423607831,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+00-3",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9927064985763752,
+      "alpha_difference_deg": 0.01,
+      "cl": {
+        "difference": 0.00854380248057728,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.03187288483888206,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+03-1",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926783035428963,
+      "alpha_difference_deg": 0.8500000000000001,
+      "cl": {
+        "difference": 0.027593073353175263,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.03776092755105102,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+03-2",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926788515574784,
+      "alpha_difference_deg": 0.8500000000000001,
+      "cl": {
+        "difference": 0.02511221414043391,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.04286600700961965,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+03-3",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926444799895883,
+      "alpha_difference_deg": 0.8500000000000001,
+      "cl": {
+        "difference": 0.02671593425544086,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.03967204317238573,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+06-1",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926477771504021,
+      "alpha_difference_deg": 0.009999999999999787,
+      "cl": {
+        "difference": -0.1442446730928304,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.03850371394363322,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+06-2",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.992655091399521,
+      "alpha_difference_deg": 0.009999999999999787,
+      "cl": {
+        "difference": -0.13729036560261265,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.039187390495627306,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+06-3",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926309004212505,
+      "alpha_difference_deg": 0.009999999999999787,
+      "cl": {
+        "difference": -0.13693913086929044,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.04363700099148263,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+09-1",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9927015343839254,
+      "alpha_difference_deg": 0.6999999999999993,
+      "cl": {
+        "difference": -0.1259797367368901,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.0462450283956827,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+09-2",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9925891158516228,
+      "alpha_difference_deg": 0.6999999999999993,
+      "cl": {
+        "difference": -0.13170338768170164,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.04576957806331907,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+09-3",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9927363379759935,
+      "alpha_difference_deg": 0.6999999999999993,
+      "cl": {
+        "difference": -0.1271442568049146,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.04763268978259637,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+12-1",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926684744375988,
+      "alpha_difference_deg": 0.09999999999999964,
+      "cl": {
+        "difference": -0.5158617741787858,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.07928943427552958,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+12-2",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9927309723249741,
+      "alpha_difference_deg": 0.09999999999999964,
+      "cl": {
+        "difference": -0.5200788721321878,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.07688646780819973,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+12-3",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926715241341793,
+      "alpha_difference_deg": 0.09999999999999964,
+      "cl": {
+        "difference": -0.5185586316924921,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.07353335330388407,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+15-1",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9926056616905884,
+      "alpha_difference_deg": 0.2400000000000002,
+      "cl": {
+        "difference": -0.7694709664546433,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.1264952979095758,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+15-2",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.992690390351999,
+      "alpha_difference_deg": 0.2400000000000002,
+      "cl": {
+        "difference": -0.7705451467465195,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.12266536906077558,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    },
+    {
+      "run_id": "synth-+15-3",
+      "flags": [
+        "airfoil_mismatch",
+        "transition_unknown",
+        "coefficient_definition_mismatch",
+        "reynolds_mismatch",
+        "alpha_mismatch"
+      ],
+      "conditions_match": false,
+      "relative_re_difference": 0.9925504937679005,
+      "alpha_difference_deg": 0.2400000000000002,
+      "cl": {
+        "difference": -0.7771182398547332,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      },
+      "cd": {
+        "difference": 0.12468889266195071,
+        "combined_standard_uncertainty": null,
+        "normalized_difference": null
+      }
+    }
+  ],
+  "matched_synthetic_rows": 0,
+  "synthetic_re_range": [
+    43581.972144039035,
+    44697.03739259722
+  ],
+  "source_sha256": "78cd2f6aa4968e80f44cbf6c96f699bd9c6e45681d958ec528a10cf72ed23357",
+  "python": "3.12.10",
+  "numpy": "2.5.5",
+  "seed": 20261123,
+  "mc_samples": 100000
+}

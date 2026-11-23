@@ -1,0 +1,18 @@
+{
+  "angle_groups": 9,
+  "assumptions": [
+    "dry ideal air",
+    "incompressible low-speed pitot-static relation",
+    "rectangular planform reference area",
+    "forces aligned with wind axes",
+    "no wall, support, humidity, flow angularity, or dynamic correction"
+  ],
+  "config_sha256": "d86b1795bdcc85b7e28136d5955883c51ccc02100e80d937815f24162de0df61",
+  "data_kind": "synthetic",
+  "input_csv_sha256": "682de33f5ffbbffba1cb7bd087c0fe55893e050c519f2128e4ade79abb8c3698",
+  "input_rows": 27,
+  "reference_area_m2": 0.020000000000000004,
+  "software": "aerolab-experiment",
+  "software_version": "0.1.0",
+  "uncertainty_convention": "independent standard uncertainties (k=1); shared offsets NOT averaged down"
+}
