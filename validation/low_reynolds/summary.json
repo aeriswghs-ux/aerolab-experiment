@@ -1,0 +1,340 @@
+{
+  "status": "PUBLISHED LOW-RE REFERENCE RESULTS; NOT USER TUNNEL RESULTS",
+  "source": {
+    "source": "https://m-selig.ae.illinois.edu/pd/pub/lsat/volume01.zip",
+    "retrieved": "2026-11-23",
+    "archive_sha256": "124b990a3d22163cadf6efb8e805860e89275f2f987d96e4fbe7a07bda8e03ab",
+    "files": [
+      {
+        "file": "DRAG01.TXT",
+        "sha256": "ffe33dd94d41243b219dbc3c46a78daafd057332b6e36a7e86c6d19ac64223e0"
+      },
+      {
+        "file": "LIFT01.TXT",
+        "sha256": "dd952c36845bb6ae454e5dab4169678501c42eb45a5ca048a51f39cefff6df51"
+      },
+      {
+        "file": "GPL.TXT",
+        "sha256": "ac88d8b5251b5b4e8340aad3abfc9eb01e91ce4d8564c4b883047d9b23e601b2"
+      },
+      {
+        "file": "MANIFEST.TXT",
+        "sha256": "6a3afb2beec4a01c3e1bfb1dfb2ec1a11c732ad2108faaa04522dd42b4c6037a"
+      },
+      {
+        "file": "README01.TXT",
+        "sha256": "c2c060982090b913c6af09f76e0b0759ce23ae32d96a49b8bd553a4fb5c76fd3"
+      },
+      {
+        "file": "FORMAT01.TXT",
+        "sha256": "070c40f0a526f192cb87ea238176506732af9f9d9d0f8a428bacab316543c959"
+      }
+    ]
+  },
+  "summary": [
+    {
+      "airfoil": "A18",
+      "reynolds": 40000,
+      "run_id": "MS00278.DAT",
+      "n": 7,
+      "min_sampled_cd": 0.0202,
+      "alpha_at_min_cd": 0.93,
+      "max_sampled_lift_drag": 39.151943462897535,
+      "alpha_at_max_lift_drag": 9.08,
+      "max_drag_mean_discrepancy": 7.499999999999868e-05
+    },
+    {
+      "airfoil": "A18",
+      "reynolds": 60700,
+      "run_id": "JG00161.DAT",
+      "n": 9,
+      "min_sampled_cd": 0.0182,
+      "alpha_at_min_cd": -0.17,
+      "max_sampled_lift_drag": 46.71497584541063,
+      "alpha_at_max_lift_drag": 6.02,
+      "max_drag_mean_discrepancy": 2.5000000000004186e-05
+    },
+    {
+      "airfoil": "A18",
+      "reynolds": 100700,
+      "run_id": "MS00163.DAT",
+      "n": 9,
+      "min_sampled_cd": 0.0141,
+      "alpha_at_min_cd": -0.37,
+      "max_sampled_lift_drag": 55.75757575757576,
+      "alpha_at_max_lift_drag": 5.94,
+      "max_drag_mean_discrepancy": 5.000000000000143e-05
+    },
+    {
+      "airfoil": "E387 (A)",
+      "reynolds": 61000,
+      "run_id": "AB00209.DAT",
+      "n": 11,
+      "min_sampled_cd": 0.0228,
+      "alpha_at_min_cd": -0.68,
+      "max_sampled_lift_drag": 46.6147859922179,
+      "alpha_at_max_lift_drag": 8.82,
+      "max_drag_mean_discrepancy": 5.000000000000143e-05
+    },
+    {
+      "airfoil": "E387 (A)",
+      "reynolds": 101000,
+      "run_id": "AB00211.DAT",
+      "n": 11,
+      "min_sampled_cd": 0.0162,
+      "alpha_at_min_cd": -2.04,
+      "max_sampled_lift_drag": 51.548672566371685,
+      "alpha_at_max_lift_drag": 8.7,
+      "max_drag_mean_discrepancy": 5.000000000000143e-05
+    },
+    {
+      "airfoil": "NACA 64A010",
+      "reynolds": 61600,
+      "run_id": "JG00244.DAT",
+      "n": 10,
+      "min_sampled_cd": 0.0113,
+      "alpha_at_min_cd": 0.32,
+      "max_sampled_lift_drag": 27.98913043478261,
+      "alpha_at_max_lift_drag": 4.69,
+      "max_drag_mean_discrepancy": 5.000000000000143e-05
+    },
+    {
+      "airfoil": "NACA 64A010",
+      "reynolds": 101600,
+      "run_id": "JG00246.DAT",
+      "n": 10,
+      "min_sampled_cd": 0.0099,
+      "alpha_at_min_cd": 0.12,
+      "max_sampled_lift_drag": 31.1038961038961,
+      "alpha_at_max_lift_drag": 4.7,
+      "max_drag_mean_discrepancy": 5.000000000000143e-05
+    }
+  ],
+  "drag_mean_max_absolute_difference": 7.499999999999868e-05,
+  "rounding_bound": 0.0001,
+  "reynolds_sensitivity_pairs": [
+    {
+      "airfoil": "A18",
+      "re_low": 40000,
+      "re_high": 100700,
+      "alpha_low": 0.93,
+      "alpha_high": 1.1,
+      "cl_difference": -0.14400000000000002,
+      "cd_difference": 0.0055,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "A18",
+      "re_low": 40000,
+      "re_high": 100700,
+      "alpha_low": 2.82,
+      "alpha_high": 2.82,
+      "cl_difference": -0.11299999999999999,
+      "cd_difference": 0.0188,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "E387 (A)",
+      "re_low": 61000,
+      "re_high": 101000,
+      "alpha_low": -0.68,
+      "alpha_high": -0.49,
+      "cl_difference": -0.06,
+      "cd_difference": 0.006600000000000002,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "E387 (A)",
+      "re_low": 61000,
+      "re_high": 101000,
+      "alpha_low": 0.93,
+      "alpha_high": 0.81,
+      "cl_difference": 0.0030000000000000027,
+      "cd_difference": 0.009600000000000001,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "E387 (A)",
+      "re_low": 61000,
+      "re_high": 101000,
+      "alpha_low": 2.59,
+      "alpha_high": 2.46,
+      "cl_difference": 0.02200000000000002,
+      "cd_difference": 0.011800000000000001,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "E387 (A)",
+      "re_low": 61000,
+      "re_high": 101000,
+      "alpha_low": 5.42,
+      "alpha_high": 5.61,
+      "cl_difference": -0.007000000000000006,
+      "cd_difference": 0.0178,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "E387 (A)",
+      "re_low": 61000,
+      "re_high": 101000,
+      "alpha_low": 6.99,
+      "alpha_high": 6.93,
+      "cl_difference": 0.016000000000000014,
+      "cd_difference": 0.017199999999999997,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "NACA 64A010",
+      "re_low": 61600,
+      "re_high": 101600,
+      "alpha_low": -1.17,
+      "alpha_high": -1.22,
+      "cl_difference": 0.174,
+      "cd_difference": 0.004299999999999998,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "NACA 64A010",
+      "re_low": 61600,
+      "re_high": 101600,
+      "alpha_low": 0.32,
+      "alpha_high": 0.12,
+      "cl_difference": 0.047,
+      "cd_difference": 0.0013999999999999985,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "NACA 64A010",
+      "re_low": 61600,
+      "re_high": 101600,
+      "alpha_low": 1.84,
+      "alpha_high": 1.7,
+      "cl_difference": -0.07400000000000001,
+      "cd_difference": 0.0037,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "NACA 64A010",
+      "re_low": 61600,
+      "re_high": 101600,
+      "alpha_low": 3.18,
+      "alpha_high": 3.37,
+      "cl_difference": 0.0,
+      "cd_difference": 0.002999999999999999,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "NACA 64A010",
+      "re_low": 61600,
+      "re_high": 101600,
+      "alpha_low": 4.69,
+      "alpha_high": 4.7,
+      "cl_difference": 0.03600000000000003,
+      "cd_difference": 0.002999999999999999,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "NACA 64A010",
+      "re_low": 61600,
+      "re_high": 101600,
+      "alpha_low": 6.51,
+      "alpha_high": 6.4,
+      "cl_difference": 0.049000000000000044,
+      "cd_difference": 0.0011000000000000003,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    },
+    {
+      "airfoil": "NACA 64A010",
+      "re_low": 61600,
+      "re_high": 101600,
+      "alpha_low": 7.91,
+      "alpha_high": 7.68,
+      "cl_difference": 0.04899999999999993,
+      "cd_difference": 0.001800000000000003,
+      "flag": "reynolds_mismatch",
+      "combined_standard_uncertainty": null
+    }
+  ],
+  "sensitivity_metrics": {
+    "A18": {
+      "cl": {
+        "n": 2,
+        "mae": 0.1285,
+        "rmse": 0.1294314490377049
+      },
+      "cd": {
+        "n": 2,
+        "mae": 0.012150000000000001,
+        "rmse": 0.013850812250550508
+      }
+    },
+    "E387 (A)": {
+      "cl": {
+        "n": 5,
+        "mae": 0.021600000000000008,
+        "rmse": 0.029658051183447644
+      },
+      "cd": {
+        "n": 5,
+        "mae": 0.0126,
+        "rmse": 0.013323963374311713
+      }
+    },
+    "NACA 64A010": {
+      "cl": {
+        "n": 7,
+        "mae": 0.061285714285714284,
+        "rmse": 0.07933563422033542
+      },
+      "cd": {
+        "n": 7,
+        "mae": 0.002614285714285714,
+        "rmse": 0.002843287835286064
+      }
+    }
+  },
+  "intended_targets": [
+    {
+      "reynolds": 40000,
+      "chord_m": 0.1,
+      "speed_m_s": 6.023734032435054,
+      "q_pa": 21.845940336311976,
+      "status": "PROVISIONAL DESIGN TARGET; NOT MEASURED"
+    },
+    {
+      "reynolds": 50000,
+      "chord_m": 0.1,
+      "speed_m_s": 7.529667540543818,
+      "q_pa": 34.134281775487466,
+      "status": "PROVISIONAL DESIGN TARGET; NOT MEASURED"
+    },
+    {
+      "reynolds": 60000,
+      "chord_m": 0.1,
+      "speed_m_s": 9.035601048652582,
+      "q_pa": 49.15336575670196,
+      "status": "PROVISIONAL DESIGN TARGET; NOT MEASURED"
+    },
+    {
+      "reynolds": 100000,
+      "chord_m": 0.1,
+      "speed_m_s": 15.059335081087635,
+      "q_pa": 136.53712710194986,
+      "status": "PROVISIONAL DESIGN TARGET; NOT MEASURED"
+    }
+  ],
+  "uncertainty": "unknown; spanwise SD is spatial variation, not standard measurement uncertainty"
+}

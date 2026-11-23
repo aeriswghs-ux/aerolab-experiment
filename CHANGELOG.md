@@ -18,3 +18,10 @@ uncertainty correlations/covariance, environmental humidity, or unsteady aerodyn
 - Added independent numerical/uncertainty verification and mismatch-aware comparisons.
 - Added 14 tests (37 total), reproducible scripts, reference plots, and source notices.
 - No matched NACA 0018 or physical tunnel validation claimed; core remains v0.1.0.
+# Low-Reynolds reference extension (2026-11-23)
+
+- Added UIUC Volume 1 source data with original GPL, provenance and notices.
+- Analyzed 67 points in seven runs at Re=40,000–101,600, including rounding and Reynolds-sensitivity checks.
+- Documented provisional Re=40,000–100,000 wind-tunnel goals and required nominal speeds.
+- Added parser/source tests (40 total); no NACA 0018 physical validation claimed.
+

@@ -11,3 +11,4 @@ jobs:
       - run: python -m pip install -e ".[plot,test]"
       - run: python -m pytest -q
       - run: python scripts/validate.py
+      - run: python scripts/low_reynolds.py

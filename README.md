@@ -10,6 +10,18 @@ pressure from CSV into CL, CD, Reynolds number, uncertainty estimates and plots.
 
 ## Reproducible verification and reference data
 
+**Current intended wind-tunnel goal:** low-Reynolds-number airfoil experiments,
+primarily NACA 0018, with a provisional Re=40,000–100,000 planning range.
+This is a target, not measured capability. See [wind-tunnel goals](WIND_TUNNEL_GOALS.md).
+
+New [low-Re reference results](LOW_REYNOLDS_RESULTS.md) analyze 67 published
+experimental points at Re=40,000–101,600. **These data were produced under the
+UIUC Low-Speed Airfoil Test program.** The three reference airfoils differ from
+NACA 0018; no physical tunnel validation is claimed. Source data and derived
+figures retain GPL terms and attribution separately from the MIT software.
+
+Run `python scripts/low_reynolds.py` to reproduce these results and nominal targets.
+
 The validation extension adds independent formula/uncertainty checks, a pinned
 NASA Ladson NACA 0012 experimental table, explicit Reynolds/AoA and metadata
 mismatch flags, and labeled reference plots. **No physical tunnel validation is

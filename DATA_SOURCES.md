@@ -4,6 +4,23 @@ Retrieved/screened 2026-11-23. Code license does not relicense external data.
 
 ## Bundled experimental reference
 
+### Low-Reynolds primary reference: UIUC Volume 1
+
+Selig, M. S., Guglielmo, J. J., Broeren, A. P., and Giguere, P. (1995),
+*Summary of Low-Speed Airfoil Data*, Volume 1. Downloaded from the
+[UIUC distribution](https://m-selig.ae.illinois.edu/pd.html), 2026-11-23.
+The actual data release is the re-reduced Q01.00D (1997/1998), not the superseded
+original tables. Six unchanged source/documentation files and SHA-256 provenance
+are in data/reference/uiuc. GPL.TXT, README01.TXT and MANIFEST.TXT accompany them.
+These data were produced under the UIUC Low-Speed Airfoil Test program.
+
+Analysis uses clean A18, E387 (A), and NACA 64A010 runs at Re=40,000–101,600.
+Actual mean Re, run IDs, angles and spanwise drag values are retained.
+No complete pointwise measurement uncertainty is supplied in these tables.
+A18 is not NACA 0018. See LOW_REYNOLDS_RESULTS.md for findings and limitations.
+
+### Earlier high-Reynolds software reference: NASA
+
 Charles L. Ladson (1988), *Effects of Independent Variation of Mach and Reynolds Numbers on the Low-Speed Aerodynamic Characteristics of the NACA 0012 Airfoil Section*, NASA TM-4074.
 [NASA report record](https://ntrs.nasa.gov/citations/19880019495).
 NASA's indexed record labels the report “Work of the US Gov.” Numerical facts are retained with attribution; no claim of NASA endorsement.

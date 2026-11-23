@@ -2,6 +2,13 @@
 
 **Software verification completed for the tested cases. Physical tunnel validation NOT performed.**
 
+The current intended tunnel target is low Reynolds numbers (provisionally
+40,000–100,000), not the earlier NASA example at 6 million. See
+[WIND_TUNNEL_GOALS.md](WIND_TUNNEL_GOALS.md) and the new
+[low-Reynolds experimental reference analysis](LOW_REYNOLDS_RESULTS.md).
+Run `python scripts/low_reynolds.py` for its 67-point analysis, rounding check,
+Reynolds-sensitivity comparisons, and nominal design setpoints.
+
 Run from the repository root after `python -m pip install -e ".[plot,test]"`:
 
 ```sh

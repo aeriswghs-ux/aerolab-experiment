@@ -1,3 +1,4 @@
 * text=auto
 *.dat -text
 *.png binary
+data/reference/uiuc/*.TXT -text

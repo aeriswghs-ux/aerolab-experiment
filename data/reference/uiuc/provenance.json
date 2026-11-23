@@ -1,0 +1,31 @@
+{
+  "source": "https://m-selig.ae.illinois.edu/pd/pub/lsat/volume01.zip",
+  "retrieved": "2026-11-23",
+  "archive_sha256": "124b990a3d22163cadf6efb8e805860e89275f2f987d96e4fbe7a07bda8e03ab",
+  "files": [
+    {
+      "file": "DRAG01.TXT",
+      "sha256": "ffe33dd94d41243b219dbc3c46a78daafd057332b6e36a7e86c6d19ac64223e0"
+    },
+    {
+      "file": "LIFT01.TXT",
+      "sha256": "dd952c36845bb6ae454e5dab4169678501c42eb45a5ca048a51f39cefff6df51"
+    },
+    {
+      "file": "GPL.TXT",
+      "sha256": "ac88d8b5251b5b4e8340aad3abfc9eb01e91ce4d8564c4b883047d9b23e601b2"
+    },
+    {
+      "file": "MANIFEST.TXT",
+      "sha256": "6a3afb2beec4a01c3e1bfb1dfb2ec1a11c732ad2108faaa04522dd42b4c6037a"
+    },
+    {
+      "file": "README01.TXT",
+      "sha256": "c2c060982090b913c6af09f76e0b0759ce23ae32d96a49b8bd553a4fb5c76fd3"
+    },
+    {
+      "file": "FORMAT01.TXT",
+      "sha256": "070c40f0a526f192cb87ea238176506732af9f9d9d0f8a428bacab316543c959"
+    }
+  ]
+}
